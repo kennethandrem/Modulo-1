@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kenneth.modulo_1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Modulo 1"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Inicio"
+            android:label="Modulo 1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Usuario"
+            android:label="@string/title_activity_usuario" >
+        </activity>
+        <activity
+            android:name=".Orden"
+            android:label="@string/title_activity_orden" >
+        </activity>
+    </application>
+
+</manifest>
